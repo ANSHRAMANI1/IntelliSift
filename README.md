@@ -8,11 +8,6 @@
 
 Data analysts spend 60–80% of their time cleaning and categorizing data by hand. IntelliSift automates the boring parts: validate and clean your raw data, then use GPT-4o to intelligently classify, tag, and enrich each row — in one pipeline run.
 
-## Demo
-
-<!-- Add your demo GIF or video link here -->
-> 📹 Demo video coming soon
-
 **What it does:**
 ```
 Input:  messy_customer_feedback.csv  (500 rows, inconsistent values, missing fields)
