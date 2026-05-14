@@ -1,0 +1,41 @@
+# DataSift Pipeline Configuration
+# This config processes customer feedback CSV files
+
+pipeline:
+  name: "Customer Feedback Analysis"
+  input_path: "sample_data/customer_feedback.csv"
+  output_dir: "output"
+
+cleaning:
+  drop_duplicates: true
+  required_columns: [customer_id, feedback_text]
+  text_columns: [feedback_text, name]
+
+enrichment:
+  # Which column to send to GPT-4o for enrichment
+  input_column: feedback_text
+
+  # How many rows to send per API call (higher = faster but more tokens per call)
+  batch_size: 5
+
+  # Define the new columns GPT-4o should add
+  output_columns:
+    sentiment:
+      description: "Overall emotional tone of the feedback"
+      values: [positive, negative, neutral]
+
+    category:
+      description: "Main topic or issue type of the feedback"
+      values: [product_quality, shipping, customer_service, billing, app_bug, other]
+
+    priority:
+      description: "How urgently this feedback needs a response from the support team"
+      values: [high, medium, low]
+
+    summary:
+      description: "A single sentence (max 15 words) summarizing the feedback"
+      type: text
+
+    requires_action:
+      description: "Whether this feedback requires a human follow-up action"
+      values: ["yes", "no"]

@@ -1,0 +1,16 @@
+customer_id,name,feedback_text,submitted_at
+C001,Alice Martin,"I've been waiting 3 weeks for my order and still nothing. This is unacceptable.",2024-01-15
+C002,Bob Chen,"Absolutely love the product! Best purchase I made this year. Super fast shipping too.",2024-01-15
+C003,Carol Smith,"The item arrived broken. I need a replacement or refund immediately.",2024-01-16
+C004,David Lee,"Why was I charged twice for the same order? Please fix this ASAP.",2024-01-16
+C005,Emma Wilson,"Great quality but took longer than expected to arrive. Would still buy again.",2024-01-17
+C006,Frank Brown,"Your customer service rep was incredibly helpful and solved my issue within minutes!",2024-01-17
+C007,Grace Taylor,"I've been trying to cancel my subscription for two months and keep getting ignored.",2024-01-18
+C008,Henry Davis,"Product works exactly as described. No complaints whatsoever.",2024-01-18
+C009,Iris Johnson,"The new packaging is terrible. Everything was damaged inside the box.",2024-01-19
+C010,Jack Williams,"Received wrong item. Ordered size L, got size S. Very disappointed.",2024-01-19
+C011,Karen Martinez,"Fastest delivery I've ever experienced. Ordered Monday, arrived Tuesday!",2024-01-20
+C012,Liam Anderson,"Your app keeps crashing whenever I try to track my order. Please fix the bug.",2024-01-20
+C013,Mia Thomas,"Refund still hasn't hit my account after 10 business days. What's going on?",2024-01-21
+C014,Noah Jackson,"Five stars! Exceeded my expectations in every way. Will recommend to friends.",2024-01-21
+C015,Olivia White,"The product description was misleading. It's much smaller than the photos suggest.",2024-01-22
