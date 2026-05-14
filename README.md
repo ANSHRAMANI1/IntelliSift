@@ -1,12 +1,12 @@
-# DataSift — Intelligent Data Enrichment Pipeline
+# IntelliSift — Automated Data Enrichment System
 
-> Feed raw CSV/JSON data in. Get back a clean, AI-enriched, classified dataset with a summary report — automatically.
+> Upload raw CSV or JSON data and receive a clean, enriched, AI-classified dataset with automated insights        .
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue) ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green) ![Pandas](https://img.shields.io/badge/Data-Pandas-orange) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## The Problem
 
-Data analysts spend 60–80% of their time cleaning and categorizing data by hand. DataSift automates the boring parts: validate and clean your raw data, then use GPT-4o to intelligently classify, tag, and enrich each row — in one pipeline run.
+Data analysts spend 60–80% of their time cleaning and categorizing data by hand. IntelliSift automates the boring parts: validate and clean your raw data, then use GPT-4o to intelligently classify, tag, and enrich each row — in one pipeline run.
 
 ## Demo
 
@@ -45,7 +45,7 @@ Output: enriched_feedback.csv        (cleaned + sentiment + category + priority 
 ## Project Structure
 
 ```
-datasift/
+IntelliSift/
 ├── pipeline.py             # Main pipeline orchestrator
 ├── stages/
 │   ├── __init__.py
@@ -67,8 +67,8 @@ datasift/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/datasift.git
-cd datasift
+git clone https://github.com/ANSHRAMANI1/IntelliSift.git
+cd IntelliSift
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -158,9 +158,9 @@ enrichment:
 
 ## Freelance Context
 
-This was built as a portfolio project demonstrating production-ready AI-powered data pipelines. I customize DataSift for clients' specific data schemas, enrichment logic, and output destinations (BigQuery, Snowflake, Airtable, etc.).
+This was built as a portfolio project demonstrating production-ready AI-powered data pipelines. I customize IntelliSift for clients' specific data schemas, enrichment logic, and output destinations (BigQuery, Snowflake, Airtable, etc.).
 
-**Want a custom data enrichment pipeline?** [Contact me on Upwork](#)
+**Want a custom data enrichment pipeline?** [Contact me on Upwork](https://www.upwork.com/freelancers/~0169dbb8a7f7cf38e6)
 
 ## License
 
